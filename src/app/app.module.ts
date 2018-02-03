@@ -18,6 +18,10 @@ import { AdminFooterComponent } from './admin/admin-footer/admin-footer.componen
 import { AdminControlSidebarComponent } from './admin/admin-control-sidebar/admin-control-sidebar.component';
 import { AdminDashboard1Component } from './admin/admin-dashboard1/admin-dashboard1.component';
 
+import { WorkbenchComponent } from './workbench/workbench.component';
+import { WorkbenchHeaderComponent } from './workbench/workbench-header/workbench-header.component';
+import { WorkbenchFooterComponent } from './workbench/workbench-footer/workbench-footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +30,10 @@ import { AdminDashboard1Component } from './admin/admin-dashboard1/admin-dashboa
     StarterLeftSideComponent,
     StarterContentComponent,
     StarterFooterComponent,
-    StarterControlSidebarComponent
+    StarterControlSidebarComponent,
+    WorkbenchComponent,
+    WorkbenchHeaderComponent,
+    WorkbenchFooterComponent
   ],
   imports: [
     BrowserModule,
