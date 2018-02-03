@@ -4,7 +4,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 
 import { WorkbenchComponent } from './workbench.component';
 import { WorkbenchHeaderComponent } from './workbench-header/workbench-header.component';
-import { StarterLeftSideComponent } from './starter-left-side/starter-left-side.component';
+import { WorkbenchLeftSideComponent } from './workbench-left-side/workbench-left-side.component';
 import { StarterContentComponent } from './starter-content/starter-content.component';
 import { WorkbenchFooterComponent } from './workbench-footer/workbench-footer.component';
 import { StarterControlSidebarComponent } from './starter-control-sidebar/starter-control-sidebar.component';
@@ -21,7 +21,7 @@ describe('WorkbenchComponent', () => {
       declarations: [ 
         WorkbenchComponent,
         WorkbenchHeaderComponent,
-        StarterLeftSideComponent,
+        WorkbenchLeftSideComponent,
         StarterContentComponent,
         WorkbenchFooterComponent,
         StarterControlSidebarComponent

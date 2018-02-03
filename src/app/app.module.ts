@@ -20,6 +20,7 @@ import { AdminDashboard1Component } from './admin/admin-dashboard1/admin-dashboa
 
 import { WorkbenchComponent } from './workbench/workbench.component';
 import { WorkbenchHeaderComponent } from './workbench/workbench-header/workbench-header.component';
+import { WorkbenchLeftSideComponent } from './workbench/workbench-left-side/workbench-left-side.component';
 import { WorkbenchFooterComponent } from './workbench/workbench-footer/workbench-footer.component';
 
 @NgModule({
@@ -33,6 +34,7 @@ import { WorkbenchFooterComponent } from './workbench/workbench-footer/workbench
     StarterControlSidebarComponent,
     WorkbenchComponent,
     WorkbenchHeaderComponent,
+    WorkbenchLeftSideComponent,
     WorkbenchFooterComponent
   ],
   imports: [
