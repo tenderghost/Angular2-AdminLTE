@@ -33,9 +33,14 @@
             <!-- Optionally, you can add icons to the links -->
             <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
             <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
-            <li *ngFor="let menu of menuItems;">
-                <a id="wb-lm-{{menu.id}}" href="#"><i class="{{menu.cssClass}}"></i> <span>{{menu.text}}</span></a>
-            </li>
+
+            <ng-template ngFor let-menu [ngForOf]="menuItems" let-i="index" [ngForTrackBy]="trackByFn">
+                <li>
+                    <a id="wb-lm-{{menu.id}}" href="#"><i class="{{menu.cssClass}}"></i> <span>{{menu.text}}</span></a>
+                    <div *ngIf="menu.childItems && menu.childItems.length > 0">child</div>
+                </li>
+            </ng-template>
+
             <li class="treeview">
                 <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
                   <span class="pull-right-container">
