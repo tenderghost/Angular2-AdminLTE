@@ -3,11 +3,11 @@ import { Component, OnInit } from '@angular/core';
 declare var AdminLTE: any;
 
 @Component({
-  selector: 'app-starter-content',
-  templateUrl: './starter-content.component.html',
-  styleUrls: ['./starter-content.component.css']
+  selector: 'app-workbench-content',
+  templateUrl: './workbench-content.component.html',
+  styleUrls: ['./workbench-content.component.css']
 })
-export class StarterContentComponent implements OnInit {
+export class WorkbenchContentComponent implements OnInit {
 
   constructor() { }
 

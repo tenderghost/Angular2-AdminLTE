@@ -10,7 +10,7 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   imports: [
     RouterModule.forRoot([
-      { path: '', redirectTo: 'starter', pathMatch: 'full' },
+      { path: '', redirectTo: 'workbench', pathMatch: 'full' },
       { path: 'starter', component: StarterComponent },
       { path: 'workbench', component: WorkbenchComponent },
     ])
